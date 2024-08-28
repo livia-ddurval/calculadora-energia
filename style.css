@@ -1,0 +1,125 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    text-align: right;
+    background-color: #397DDB; /* Cor da paleta */
+}
+
+header nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #397DDB; /* Cor da paleta */
+    color: white;
+    padding: 100px 20px;
+}
+
+.hero .welcome-text {
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin: 0;
+    line-height: 1.4;
+}
+/* 
+.content {
+    padding: 20px;
+    background-color: #ffffff; 
+}
+
+.content h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 10px;
+} */
+
+/* Estilo do formulário */
+form {
+    background: #397DDB; /* Cor da paleta */
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    margin: 40px auto; /* Espaçamento abaixo da seção content */
+}
+
+/* Estilo dos títulos do formulário */
+form h1 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #f5f0eb;
+}
+
+/* Estilo dos rótulos */
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+    color: #f5f5f5; /* Cor dos rótulos */
+}
+
+/* Estilo dos selects e input */
+form select, 
+form input[type="number"], 
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: none;
+    color: #000000;
+    font-size: 1em;
+    transition: background 0.3s;
+}
+
+form select:focus, 
+form input[type="number"]:focus, 
+form input[type="text"]:focus {
+    outline: none;
+}
+
+/* Estilo do botão */
+form button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #7B86E0;
+    color: #f5f5f5;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #6278A0; /* Cor de hover ajustada */
+}
+
+form:hover {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
